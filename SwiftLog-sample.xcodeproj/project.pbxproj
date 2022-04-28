@@ -12,6 +12,8 @@
 		0EFEC463281A0DD600FE574F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEC462281A0DD600FE574F /* Assets.xcassets */; };
 		0EFEC466281A0DD600FE574F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EFEC465281A0DD600FE574F /* Preview Assets.xcassets */; };
 		0EFEC46F281A0E0E00FE574F /* Logging in Frameworks */ = {isa = PBXBuildFile; productRef = 0EFEC46E281A0E0E00FE574F /* Logging */; };
+		0EFEC471281A17DB00FE574F /* Logger+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEC470281A17DB00FE574F /* Logger+.swift */; };
+		0EFEC473281A181900FE574F /* FirebaseLogHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFEC472281A181900FE574F /* FirebaseLogHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		0EFEC462281A0DD600FE574F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EFEC465281A0DD600FE574F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EFEC46C281A0DE400FE574F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0EFEC470281A17DB00FE574F /* Logger+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+.swift"; sourceTree = "<group>"; };
+		0EFEC472281A181900FE574F /* FirebaseLogHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseLogHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				0EFEC45E281A0DCC00FE574F /* SwiftLog_sampleApp.swift */,
 				0EFEC460281A0DCC00FE574F /* ContentView.swift */,
+				0EFEC472281A181900FE574F /* FirebaseLogHandler.swift */,
+				0EFEC470281A17DB00FE574F /* Logger+.swift */,
 				0EFEC462281A0DD600FE574F /* Assets.xcassets */,
 				0EFEC464281A0DD600FE574F /* Preview Content */,
 			);
@@ -147,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFEC473281A181900FE574F /* FirebaseLogHandler.swift in Sources */,
+				0EFEC471281A17DB00FE574F /* Logger+.swift in Sources */,
 				0EFEC461281A0DCC00FE574F /* ContentView.swift in Sources */,
 				0EFEC45F281A0DCC00FE574F /* SwiftLog_sampleApp.swift in Sources */,
 			);
